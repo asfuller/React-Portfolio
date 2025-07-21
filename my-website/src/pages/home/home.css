@@ -1,0 +1,129 @@
+content {
+    width: 100%;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../../assets/background.jpg') no-repeat;
+    color: #fff;
+    min-height: 90vh;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    text-align: center;
+    max-width: 800px;
+}
+
+.hero-text .title {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.hero-text .subtitle {
+    font-size: 25px;
+    max-width: 700px;
+    margin: 10px auto;
+    line-height: 1.4;
+}
+
+.content .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 500px;
+}
+
+.container .introduction {
+    text-align: center;
+    max-width: 800px;
+}
+
+.container .h2-title {
+    font-size: 30px;
+    max-width: 700px;
+    margin: 10px auto;
+}
+
+.container button {
+    margin-top: 50px;
+}
+
+.container-serv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 780px;
+    background-color: #F3F4F6;
+}
+
+.services {
+    text-align: center;
+    max-width: 100%;
+}
+
+.services h2 {
+    font-size: 30px;
+    max-width: 700px;
+    margin: 10px auto;
+}
+
+.services p {
+    font-size: 18px;
+    line-height: 1.4;
+    max-width: 900px;
+}
+
+.services .service-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    
+}
+
+.services .cards {
+    transition: transform 300ms;
+    /*transform-origin:top left;*/
+}
+
+.services .cards:hover {
+    transform: scale(1.1);
+}
+
+.card-content .card-title{
+    font-size: 19px;
+    max-width: 100%;
+    margin: 10px auto;
+}
+
+.card-content .card-descr {
+    font-size: 20px;
+    color: #fff;
+}
+
+/***KEY FRAMES***/
+@keyframes cards-move {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  @keyframes cards-move-anim {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
