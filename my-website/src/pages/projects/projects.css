@@ -1,0 +1,53 @@
+.project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 800px;
+}
+
+.projects {
+    max-width: 1100px;
+}
+
+.projects-title {
+    text-align: center;
+}
+
+.project1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.project-img {
+    width: 70%;
+    margin-right: 20px;
+}
+
+.projectImg {
+    width: 100%;
+}
+
+.project-text {
+    position: relative;
+    margin-left: 20px;
+}
+
+.project-text h2 {
+    font-size: 30px;
+    max-width: 700px;
+    margin: 10px auto;
+}
+
+.project-text .projectTitle {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.project-text button {
+    margin-top: 10px;
+}

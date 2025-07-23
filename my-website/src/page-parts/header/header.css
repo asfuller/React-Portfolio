@@ -13,6 +13,11 @@
     flex-flow: row;
 }
 
+.dark-nav {
+    background-color: #041121;
+    transition: all .3s ease-in-out;
+}
+
 .logo {
     font-size: 32px;
     color: #fff;

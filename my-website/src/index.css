@@ -83,3 +83,20 @@ p {
     background: rgba(76, 141, 224, 0.5);
     color: #fff;
 }
+
+.visit {
+    background: transparent;
+    color: #333;
+    padding: 14px 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: #DE9F59 solid 2px;
+    cursor: pointer;
+    outline: 0;
+    transition: .3s;
+}
+
+.visit:hover {
+    background-color: #DE9F59;
+    color: #fff;
+}

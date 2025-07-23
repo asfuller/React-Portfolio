@@ -1,5 +1,7 @@
 import React from "react"
 import "./home.css"
+import About from "../about/About";
+import Projects from "../projects/Projects";
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Grid from '@mui/material/CardContent';
@@ -7,6 +9,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { maxHeight } from "@mui/system";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Contact from "../contact/Contact";
+import { useEffect } from "react"
 
 AOS.init();
 
@@ -29,9 +33,12 @@ const Home = () => {
                     <h3 className="subtext">Hi, my name is Alex,</h3>
                     <h2 className="h2-title">I am a Software Developer and WordPress 
                     expert with 5+ years of experience</h2>
-                    <button className="learn-more">Learn more about me</button>
                 </div>
             </div>
+
+            <div data-aos="fade-in"
+                data-aos-duration="2000"><About/></div>
+
             <div className="container-serv">
                 <div className="services" data-aos="fade-in"
                 data-aos-duration="2000">
@@ -128,6 +135,12 @@ const Home = () => {
                             </Card>
                         </div>
                 </div>
+            </div>
+            <div data-aos="fade-in"
+                data-aos-duration="2000"><Projects/>
+            </div>
+            <div data-aos="fade-in"
+                data-aos-duration="2000"><Contact/>
             </div>
         </div>
     )
