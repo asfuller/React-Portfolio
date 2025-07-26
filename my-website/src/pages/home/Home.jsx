@@ -11,6 +11,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Contact from "../contact/Contact";
 import { useEffect } from "react"
+import Testimonials from "../testimonials/Testimonials";
 
 AOS.init();
 
@@ -30,7 +31,7 @@ const Home = () => {
             <div className="container">
                 <div className="introduction" data-aos="fade-in"
                 data-aos-duration="2000">
-                    <h3 className="subtext">Hi, my name is Alex,</h3>
+                    <h3 className="subtext" id="hi">Hi, my name is Alex,</h3>
                     <h2 className="h2-title">I am a Software Developer and WordPress 
                     expert with 5+ years of experience</h2>
                 </div>
@@ -138,6 +139,9 @@ const Home = () => {
             </div>
             <div data-aos="fade-in"
                 data-aos-duration="2000"><Projects/>
+            </div>
+            <div data-aos="fade-in"
+                data-aos-duration="2000"><Testimonials/>
             </div>
             <div data-aos="fade-in"
                 data-aos-duration="2000"><Contact/>
